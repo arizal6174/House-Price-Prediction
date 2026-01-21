@@ -36,5 +36,5 @@ Model dievaluasi menggunakan data testing (20% split) dengan hasil sebagai berik
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/arizal6174/House-Price-Prediction-Portfolio.git](https://github.com/arizal6174/House-Price-Prediction-Portfolio.git)
-   cd House-Price-Prediction-Portfolio
+   git clone [https://github.com/arizal6174/House-Price-Prediction.git](https://github.com/arizal6174/House-Price-Prediction.git)
+   cd House-Price-Prediction
