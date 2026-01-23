@@ -26,9 +26,9 @@ Solusi ini mencakup seluruh pipeline Machine Learning:
 
 ## 📊 Hasil Evaluasi Model
 Model dievaluasi menggunakan data testing (20% split) dengan hasil sebagai berikut:
-* **MAE (Mean Absolute Error):** `Put Your MAE Value Here`
-* **RMSE (Root Mean Squared Error):** `Put Your RMSE Value Here`
-* **R2 Score:** `Put Your R2 Score Here`
+* **MAE (Mean Absolute Error):** `$19,052.91`
+* **RMSE (Root Mean Squared Error):** `$29,602.88`
+* **R2 Score:** `88%`
 
 > *Insight: Model Random Forest menunjukkan performa yang stabil dalam menangkap pola non-linear pada fitur perumahan.*
 
