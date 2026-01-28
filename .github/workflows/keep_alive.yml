@@ -1,0 +1,13 @@
+name: Keep Streamlit Awake Every Hour
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Streamlit App
+        run: |
+          curl -I https://houseprice-ml.streamlit.app/
