@@ -10,4 +10,6 @@ jobs:
     steps:
       - name: Ping Streamlit App
         run: |
-          curl -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" https://houseprice-ml.streamlit.app/
+          curl -L --max-redirs 10 --cookie-jar /tmp/cookies.txt -s -o /dev/null -w "Status: %{http_code}\n" \
+          -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" \
+          https://houseprice-ml.streamlit.app/ || true
